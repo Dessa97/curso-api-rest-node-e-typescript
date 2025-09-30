@@ -1,12 +1,11 @@
 import express from "express";
+import { router } from "./routes";
 
 
 const server = express();
+server.use(express.json())
+server.use(router)
 
-
-server.get("/", (req, res) => {
-  return res.send("Olá dev");
-});
 
 
 export { server };
