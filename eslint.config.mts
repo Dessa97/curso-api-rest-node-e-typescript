@@ -15,6 +15,9 @@ export default defineConfig([
   { files: ["**/*.css"], plugins: { css }, language: "css/css", extends: ["css/recommended"] },
   {rules:{
     semi: ["warn", "always"],
+    "@typescript-eslint/no-empty-object-type":"off",
+    "@typescript-eslint/no-empty-interface":"off"
+
     
     
   }}
