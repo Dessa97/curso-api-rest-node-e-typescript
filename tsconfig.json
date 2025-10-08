@@ -11,5 +11,6 @@
     //pasta para os arquivos TS que serão convertidos para JS
     "rootDir": "./src"
   },
+  "exclude": ["./jest.config.ts", "./node_modules", "./tests", "./build"],
   "include": ["src/**/*"]
 }
