@@ -22,5 +22,5 @@ export const createValidation = validation((getSchema) => ({
 //--------------------------------Request<Params, ResBody, ReqBody> - aqui o body do req tem o formato da interface ICidade.
 export const create = async (req: Request<{}, {}, ICidade>, res: Response) => {
   console.log(req.body);
-  return res.status(StatusCodes.INTERNAL_SERVER_ERROR).send("não implementado");
+  return res.status(StatusCodes.CREATED).json(1);
 };
