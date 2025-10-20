@@ -6,9 +6,9 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    //pasta para os arquivos convertidos em JS
+
     "outDir": "./build",
-    //pasta para os arquivos TS que serão convertidos para JS
+
     "rootDir": "./src"
   },
   "exclude": ["./jest.config.ts", "./node_modules", "./tests", "./build"],
